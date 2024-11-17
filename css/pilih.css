@@ -1,0 +1,66 @@
+/* Keseluruhan halaman website */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 110, 78);
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Sesuaikan tinggi navbar */
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000; /* Pastikan navbar memiliki z-index tinggi */
+}
+
+h2 {
+    text-shadow: 1px 0.5px 2px rgb(0, 0, 0);
+    color: #37AFE1;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+span {
+    color: rgb(241, 56, 118);
+    text-decoration: underline;
+}
+
+
+nav img {
+    width: 150px;
+}
+
+/* Main content */
+main {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 80px; /* Beri margin-top untuk menghindari navbar */
+    margin-bottom: 60px;
+    font-family: Tahoma;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    width: 100%;
+    color: #888;
+}
