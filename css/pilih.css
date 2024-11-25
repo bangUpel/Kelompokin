@@ -52,3 +52,15 @@ footer {
     width: 100%;
     color: #888;
 }
+
+#back {
+    padding-top: 5px;
+    width: 30px;
+    opacity: 50%;
+    position: absolute;
+    left: 10px
+}
+
+#back:hover {
+    cursor: pointer;
+}

@@ -2,6 +2,11 @@ let manualCard = document.getElementById("manual-card");
 let defaultCard = document.getElementById("default-card");
 manualCard.style.display = "none";
 
+function back() {
+  manualCard.style.display = "none";
+  defaultCard.style.display = "block";
+}
+
 function manual() {
   defaultCard.style.display = "none";
   manualCard.style.display = "block";
